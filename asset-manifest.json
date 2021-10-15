@@ -1,0 +1,25 @@
+{
+  "files": {
+    "main.css": "/E-Commerce-Project/static/css/main.f7988b85.chunk.css",
+    "main.js": "/E-Commerce-Project/static/js/main.a09741b7.chunk.js",
+    "main.js.map": "/E-Commerce-Project/static/js/main.a09741b7.chunk.js.map",
+    "runtime-main.js": "/E-Commerce-Project/static/js/runtime-main.cff39258.js",
+    "runtime-main.js.map": "/E-Commerce-Project/static/js/runtime-main.cff39258.js.map",
+    "static/css/2.28bb0c3d.chunk.css": "/E-Commerce-Project/static/css/2.28bb0c3d.chunk.css",
+    "static/js/2.d767990c.chunk.js": "/E-Commerce-Project/static/js/2.d767990c.chunk.js",
+    "static/js/2.d767990c.chunk.js.map": "/E-Commerce-Project/static/js/2.d767990c.chunk.js.map",
+    "index.html": "/E-Commerce-Project/index.html",
+    "static/css/2.28bb0c3d.chunk.css.map": "/E-Commerce-Project/static/css/2.28bb0c3d.chunk.css.map",
+    "static/css/main.f7988b85.chunk.css.map": "/E-Commerce-Project/static/css/main.f7988b85.chunk.css.map",
+    "static/js/2.d767990c.chunk.js.LICENSE.txt": "/E-Commerce-Project/static/js/2.d767990c.chunk.js.LICENSE.txt",
+    "static/media/HomePage.a8da0a9c.PNG": "/E-Commerce-Project/static/media/HomePage.a8da0a9c.PNG",
+    "static/media/Logo.cd7724e7.svg": "/E-Commerce-Project/static/media/Logo.cd7724e7.svg"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.cff39258.js",
+    "static/css/2.28bb0c3d.chunk.css",
+    "static/js/2.d767990c.chunk.js",
+    "static/css/main.f7988b85.chunk.css",
+    "static/js/main.a09741b7.chunk.js"
+  ]
+}
