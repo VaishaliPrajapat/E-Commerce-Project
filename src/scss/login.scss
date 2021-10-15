@@ -1,0 +1,42 @@
+.container {
+    display: flex;
+    justify-content: center;
+}
+
+.form_container {
+    margin:13%;
+    display: inline-block;
+    padding: 1% 10% 2% 10%;
+    border-radius: 10px;
+    border: 1px solid;
+}
+
+.heading_container{
+    display: flex;
+    justify-content: center;
+}
+
+.label {
+    display: inline-block;
+    margin-top: 20px;
+    font-size: 1.1rem; 
+}
+
+.button {
+    margin-top: 10px; 
+}
+
+h2, input, textarea, select {
+    display: block;
+}
+
+textarea {
+    width: 200px;
+    height: 100px;
+}
+
+.error {
+    display: none;
+    padding-top: 5px;
+    color: red;
+}
