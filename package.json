@@ -1,5 +1,5 @@
 {
-  "homepage":"http://VaishaliPrajapat.github.io/E-Commerce-Project",
+  "homepage": "http://VaishaliPrajapat.github.io/E-Commerce-Project",
   "name": "e-commerce",
   "version": "0.1.0",
   "private": true,
@@ -11,7 +11,9 @@
     "react": "^17.0.2",
     "react-bootstrap": "^2.0.0-rc.0",
     "react-dom": "^17.0.2",
+    "react-lorem-ipsum": "^1.4.9",
     "react-scripts": "4.0.3",
+    "react-slideshow-image": "^3.5.1",
     "web-vitals": "^1.0.1"
   },
   "scripts": {

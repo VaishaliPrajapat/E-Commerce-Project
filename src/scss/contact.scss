@@ -1,0 +1,59 @@
+.contact_container{
+    width: 90%;
+    margin: 0 auto;
+    border: 1px solid red;
+}
+
+.contact_img img{
+    display: inline;
+    float: left;
+    width: 35%;
+    height: 35%;
+}
+.contact_container .from_main_container{
+    display: inline;
+    width: 55%;
+    float: left;
+}
+
+.from_main_container {
+    display: flex;
+    // justify-content: center;
+}
+
+.form_container {
+    display: inline-block;
+    padding: 10px 100px 20px 100px;
+    border-radius: 10px;
+    border: 1px solid;
+}
+
+.heading_container, .button_container {
+    display: flex;
+    justify-content: center;
+}
+
+.button_container, label {
+    display: inline-block;
+    margin-top: 20px;
+    font-size: 1.1rem; 
+}
+
+.button {
+    margin-top: 10px;
+}
+
+h2, input, textarea, select {
+    display: block;
+}
+
+textarea {
+    width: 200px;
+    height: 100px;
+}
+
+.error {
+    display: none;
+    padding-top: 5px;
+    color: red;
+}

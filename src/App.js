@@ -8,9 +8,8 @@ import {
 } from "react-router-dom";
 import "bootstrap/dist/css/bootstrap.min.css";
 import Home from "./views/Home";
-import Men from "./views/Men";
-import Women from "./views/Women";
-import Kids from "./views/Kids";
+import About from "./views/About";
+import Contact from "./views/Contact";
 import ProductList from "./views/ProductList";
 import LogIn from "./views/LogIn";
 import Statistic from "./views/Statistic";
@@ -30,15 +29,12 @@ const App = () => {
             <Route path="/" exact component={Home} />
 
             {/* Route 2. Lead singer */}
-            <Route path="/men" exact component={Men} />
+            <Route path="/about" exact component={About} />
 
             {/* Route 3. Women */}
-            <Route path="/women" exact component={Women} />
+            <Route path="/contact" exact component={Contact} />
 
-            {/* Route 4. Kids */}
-            <Route path="/kids" exact component={Kids} />
-
-            {/* Route 5. Products */}
+            {/* Route 4. Products */}
             <Route path="/productList" exact 
             render={ () => {
                             return (

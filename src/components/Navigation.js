@@ -1,7 +1,7 @@
 import React from "react";
 import { Navbar, Nav, Container } from "react-bootstrap";
 import { Link } from "react-router-dom";
-import Logo from "../static/Logo.svg";
+import Logo from "../static/Fashion_logo.png";
 import "bootstrap/dist/css/bootstrap.min.css";
 
 const Navigation = () => {
@@ -13,11 +13,10 @@ const Navigation = () => {
         className="navbar"
         collapseOnSelect
         expand="lg"
-        variant="dark"
       >
         <Container>
           <Navbar.Brand>
-            <Link to="/Home" className="items">
+            <Link to="/home" className="items">
               <img className="logo" src={Logo} alt="logo" />
             </Link>
           </Navbar.Brand>
@@ -25,25 +24,26 @@ const Navigation = () => {
           <Navbar.Collapse id="responsive-navbar-nav" className="toggle_navbar">
             <Nav className="me-auto">
               <Nav.Link>
-                <Link to="/men" className="items">
-                  Men
+                <Link to="/home" className="items">
+                  Home
                 </Link>
               </Nav.Link>
               <Nav.Link>
-                <Link to="/women" className="items">
-                  Women
-                </Link>
-              </Nav.Link>
-              <Nav.Link>
-                <Link to="/kids" className="items">
-                  Kids
+                <Link to="/about" className="items">
+                  About
                 </Link>
               </Nav.Link>
               <Nav.Link>
                 <Link key={Math.random} to="/productList" className="items">
-                  ProductList
+                  Collection
                 </Link>
               </Nav.Link>
+              <Nav.Link>
+                <Link to="/contact" className="items">
+                  Contact
+                </Link>
+              </Nav.Link>
+              
               {/* <Nav.Link><Link to="/statistic" className="items">Statistic</Link></Nav.Link>   */}
             </Nav>
             <Nav>

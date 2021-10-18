@@ -1,0 +1,33 @@
+
+.about_main_container{
+    width:90%;
+    display: flex;
+    flex-flow: column wrap;
+    margin: 0 auto;
+}
+
+.about_container_1, .about_container_2{
+    margin: 10px;
+}
+
+.about_container_1 img, .about_container_2 img{
+    height: 35%;
+    width: 35%;
+    display: inline;
+    margin:10px;
+}
+
+.about_container_1 img{
+    float: left;
+}
+
+.about_container_2 img{
+    float: right;
+}
+.description{
+    height: 35%;
+    width: 55%;
+    display: inline;
+    border:10px solid red;
+    margin: 200px;
+}
