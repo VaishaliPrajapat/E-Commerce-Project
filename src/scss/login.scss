@@ -1,9 +1,9 @@
-.container {
+.login_container {
     display: flex;
     justify-content: center;
 }
 
-.form_container {
+.login_form_container {
     margin:13%;
     display: inline-block;
     padding: 1% 10% 2% 10%;
@@ -11,31 +11,27 @@
     border: 1px solid;
 }
 
-.heading_container{
+.login_heading_container{
     display: flex;
     justify-content: center;
 }
 
-.label {
+.login_label {
     display: inline-block;
     margin-top: 20px;
     font-size: 1.1rem; 
 }
 
-.button {
+.login_button {
     margin-top: 10px; 
 }
 
-h2, input, textarea, select {
-    display: block;
-}
+h2, #name, #password{
+     display: block;
+ }
 
-textarea {
-    width: 200px;
-    height: 100px;
-}
 
-.error {
+.login_error {
     display: none;
     padding-top: 5px;
     color: red;

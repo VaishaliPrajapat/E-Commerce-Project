@@ -6,13 +6,13 @@
     width: 100%;
     justify-items: center;
     flex-flow: row wrap;
+    position: relative;
 }
 
 .bg_image_1 {
     margin: 0 auto;
     height: 80vh;
     width:95%;
-    filter: blur(0px);
     background-position: center;
     background-repeat: no-repeat;
    background-size: cover;
@@ -20,6 +20,21 @@
    z-index: 9;
    border-radius: 1%;
 }
+.blurLayout {
+  width: 100%;
+  height: 100%;
+  filter: blur(10px);
+}
+
+.blackLayout {
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  z-index: 1;
+  background-color: #000;
+  opacity: 0.4;
+}
+
 .bg_image_2{
     position: absolute;
     top: 50%;
@@ -34,13 +49,17 @@
     display: flex;
     border-radius: 3%;
 }
-.description{
-    justify-content: center;
-    align-items: flex-end;
- }
+.shopNow {
+  position: absolute;
+  z-index: 100;
+  bottom: 0;
+  width:100%;
+  text-align: center;
+}
+
 .btn_shop_now{
     background-color: rgba(126, 112, 110, 0.5);
-    color: white;
+    color: rgb(179, 172, 172);
     font-size: 2rem;
     justify-content: center;
     align-items: flex-end;

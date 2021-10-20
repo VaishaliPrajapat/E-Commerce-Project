@@ -3,6 +3,9 @@ import { Navbar, Nav, Container } from "react-bootstrap";
 import { Link } from "react-router-dom";
 import Logo from "../static/Fashion_logo.png";
 import "bootstrap/dist/css/bootstrap.min.css";
+// import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
+// import { faUser } from '@fortawesome/react-fontawesome'
+
 
 const Navigation = () => {
   // Navigation Bar
@@ -49,7 +52,9 @@ const Navigation = () => {
             <Nav>
               <Nav.Link>
                 <Link to="/login" className="items">
-                  Log In
+                {/* <FontAwesomeIcon icon={faUser} /> */}
+                Log In
+                
                 </Link>
               </Nav.Link>
               <Nav.Link>

@@ -26,20 +26,23 @@ const Home = () => {
         <Slide>
           {slideImages.map((slideImage, index) => (
             <div className="each-slide" key={index}>
-              <div
-                className="bg_image_1"
-                style={{ backgroundImage: `url(${slideImage.url})` }}
-              >
+             
+              <div className="bg_image_1">
                 <div
                   className="bg_image_2"
                   style={{ backgroundImage: `url(${slideImage.url})` }}
                 ></div>
-                <div className="description">
-                  {/* <span className="caption">{slideImage.caption}</span> */}
-                  <Link key={Math.random} to="/productList">
-                    <button className="btn_shop_now">Shop now</button>
-                  </Link>
-                </div>
+                <div className="blackLayout"></div>
+                <div
+                  className="blurLayout"
+                  style={{ backgroundImage: `url(${slideImage.url})` }}
+                ></div>
+                 <div className="shopNow">
+                {/* <span className="caption">{slideImage.caption}</span> */}
+                <Link key={Math.random} to="/productList">
+                  <button className="btn_shop_now">Shop now</button>
+                </Link>
+              </div>
               </div>
             </div>
           ))}
@@ -47,12 +50,18 @@ const Home = () => {
       </div>
       <div className="images_home_container">
         <div className="img_container">
-          <img src="https://images.unsplash.com/photo-1480455624313-e29b44bbfde1?ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&ixlib=rb-1.2.1&auto=format&fit=crop&w=1170&q=80" alt="Men" />
+          <img
+            src="https://images.unsplash.com/photo-1480455624313-e29b44bbfde1?ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&ixlib=rb-1.2.1&auto=format&fit=crop&w=1170&q=80"
+            alt="Men"
+          />
           <button>Men</button>
         </div>
 
         <div className="img_container">
-          <img src="https://images.unsplash.com/photo-1509461641751-ed8c60422376?ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&ixlib=rb-1.2.1&auto=format&fit=crop&w=1170&q=80" alt="Women" />
+          <img
+            src="https://images.unsplash.com/photo-1509461641751-ed8c60422376?ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&ixlib=rb-1.2.1&auto=format&fit=crop&w=1170&q=80"
+            alt="Women"
+          />
           <button>Women</button>
         </div>
         <div className="img_container">

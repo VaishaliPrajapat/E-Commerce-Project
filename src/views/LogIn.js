@@ -123,23 +123,23 @@ const LogIn = () => {
     }
 
     return (
-        <div className="container">
-            <div className="form_container">
-                <div className="heading_container">
+        <div className="login_container">
+            <div className="login_form_container">
+                <div className="login_heading_container">
                     <h2>Log In</h2>
                 </div>
 
                 {/* Form begins here */}
                 <form onSubmit={handleSubmit}>
-                    <label htmlFor="name" className="label">Name</label>
+                    <label htmlFor="name" className="login_label">Name</label>
                     <input id="name" name="name" value={name} onBlur={checkErrorsUsingOnBlur} onChange={updateUserData} />
-                    <div className="error" ref={nameError}>Please enter your name</div>
+                    <div className="login_error" ref={nameError}>Please enter your name</div>
 
                     <label htmlFor="password" className="label">Password</label>
                     <input name="password" id="password" value={password} onBlur={checkErrorsUsingOnBlur} onChange={updateUserData} />
-                    <div className="error" ref={passwordError}>Please enter your password</div>
+                    <div className="login_error" ref={passwordError}>Please enter your password</div>
 
-                    <button className="button" type="submit">Submit</button>
+                    <button className="login_button" type="submit">Submit</button>
                 </form>
             </div>
         </div>

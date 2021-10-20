@@ -17,8 +17,13 @@ const ProductCardS=props=>{
   return(
         <Card className="cardItem">
           <Card.Img  variant="top" src={props.dataObj.images[0]}
-          onMouseOver={e => (e.currentTarget.src = props.dataObj.images[1])}
-          onMouseOut={e=>(e.currentTarget.src=props.dataObj.images[0])} /> 
+          // onMouseOver={e => (e.currentTarget.src = props.dataObj.images[1])}
+          // onMouseOut={e=>(e.currentTarget.src=props.dataObj.images[0])} 
+          // onMouseOver={e => (e.currentTarget.src = props.dataObj.images[1])}
+          onMouseOut={e=>console.log(props.dataObj.images[0])} 
+          onMouseOver={e => console.log(props.dataObj.images[1])}
+          /> 
+
         <Card.Body>
         <hr></hr>
           <Card.Title className="brandName">{props.dataObj.brand}</Card.Title>
